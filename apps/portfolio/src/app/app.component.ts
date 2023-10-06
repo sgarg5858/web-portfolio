@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
-
+import {SkillsComponent} from '@portfolio/skills';
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [SkillsComponent],
   selector: 'portfolio-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
